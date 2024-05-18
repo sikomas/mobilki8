@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.View.Fragment2">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Фрагмент 2" />
+
+    <Button
+        android:id="@+id/to_third"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="Давайте перейдём на 3 фрагмент" />
+</LinearLayout>
